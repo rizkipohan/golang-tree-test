@@ -11,7 +11,6 @@ CREATE TABLE IF NOT EXISTS public.organization
     org_name character varying(200) COLLATE pg_catalog."default",
     org_status character varying(50) COLLATE pg_catalog."default",
     org_parent_id character varying(50) COLLATE pg_catalog."default",
-    CONSTRAINT organization_pkey PRIMARY KEY (id)
 )
 WITH (
     OIDS = FALSE
